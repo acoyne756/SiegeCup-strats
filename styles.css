@@ -1,0 +1,40 @@
+/* Global Styles */
+body {
+        font-family: Arial, sams-serif; 
+        background-color: #1e1e1e;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+}
+
+/* Navigation Bar */
+nav{
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none; 
+    padding: 0;
+}
+
+nav ul li {
+    color: white;
+    text-decoration: none;
+}
+
+/*player links section */
+.player-links {
+    margin-top: 20px;
+}
+
+/* styling the links */
+.player-links a {
+    display: block;
+    color: #00d9ff;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
