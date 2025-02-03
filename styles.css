@@ -71,3 +71,19 @@ body {
         background-color:#00d9ff;
         color: black;
 }
+
+a {
+        color: #00d9ff;
+}
+
+a:visited {
+        color: #00d9ff;
+}
+
+a:hover {
+        color: #ffffff;
+}
+
+a:active {
+        color: #00d9ff;
+}
