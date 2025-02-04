@@ -89,3 +89,19 @@ a:hover {
 a:active {
         color: #00d9ff;
 }
+
+/* styling the map */
+.map-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20[x;
+}
+
+/* mapimage styling */
+.strategy-map {
+        max-width: 90%;
+        height: auto;
+        border: 2px solid #00d9ff;
+        border-radius: 8px;
+}
