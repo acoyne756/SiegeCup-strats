@@ -90,18 +90,28 @@ a:active {
         color: #00d9ff;
 }
 
-/* styling the map */
+/* map-container */
 .map-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20[x;
+        margin-top: 20px;
+        overflow: hidden;
 }
-
-/* mapimage styling */
-.strategy-map {
-        max-width: 90%;
-        height: auto;
+/* MapWrapper */
+#map-wrapper {
+        width: 800px;
+        height: 500px;
+        overflow: hidden;
+        position: relaitve;
         border: 2px solid #00d9ff;
         border-radius: 8px;
+        cursor: grab;
+        
+/* mapimage styling */
+#strategy-map {
+        wdith: 100%;
+        height: auto;
+        transform-origin: center;
+        transition: transform 0.2s ease-in-out;
 }
